@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        ol, ul {
+            margin: 0 0 20px 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        ol > li {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        ol > ol > li {
+            font-weight: normal;
+            font-size: 1em;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 40px;
+        }
+
+        ul li {
+            font-size: 0.9em;
+        }
+
+        ol[type="I"] > li {
+            color: rgb(218, 151, 162);
+        }
+
+        ol[type="A"] > li {
+            color: black;
+        }
+
+        ul li {
+            color: #555;
+        }
+
+        li:hover {
+            color: pink;
+            transition: color 0.3s ease-in-out;
+        }
+
+        body {
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Facts About Me</h1>
+    <ol type="I">
+        <li>Things I Like</li>
+        <ol type="A">
+            <li>Favorite Food</li>
+            <ul>
+                <li>Chicken</li>
+                <li>Spaghetti</li>
+            </ul>
+            <li>Favorite Color</li>
+            <ul>
+                <li>Pink</li>
+                <li>Purple</li>
+            </ul>
+        </ol>
+
+        <li>Movies I Watched</li>
+        <ol type="A">
+            <li>Cartoons</li>
+            <ul>
+                <li>Inside Out 2</li>
+                <li>The Super Mario Bros. Movie</li>
+            </ul>
+            <li>Non-Cartoons</li>
+            <ul>
+                <li>Prom Pact</li>
+                <li>The Greatest Showman</li>
+            </ul>
+        </ol>
+
+        <li>Beverages I Prefer</li>
+        <ol type="A">
+            <li>Soda</li>
+            <ul>
+                <li>Coca-Cola</li>
+                <li>Mountain Dew</li>
+            </ul>
+            <li>Non-Soda</li>
+            <ul>
+                <li>Tea</li>
+                <li>Smoothies</li>
+            </ul>
+        </ol>
+    </ol>
+</body>
+
+</html>
